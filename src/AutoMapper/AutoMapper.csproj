@@ -38,8 +38,8 @@
     <PackageReference Include="Microsoft.DotNet.ApiCompat" Version="5.0.0-beta.19515.2" PrivateAssets="All" />  
   </ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+ <!-- <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="powershell -ExecutionPolicy Unrestricted -File &quot;$(ProjectDir)\PreBuild.ps1&quot; -version $(VersionPrefix)" />
-  </Target>
+  </Target>-->
 
 </Project>
